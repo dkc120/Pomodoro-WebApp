@@ -1,0 +1,37 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .homeContainer {
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  > button {
+    width: 100px;
+    // height: 0px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    background-color: rgb(73, 170, 89);
+    margin-top: 10px;
+    color: white;
+    box-shadow: 0px 10px 5px rgb(3, 126, 3);
+    cursor: pointer;
+
+    &:active {
+      box-shadow: 0px 0px;
+      transform: translate(0, 10px);
+    }
+  }
+}
